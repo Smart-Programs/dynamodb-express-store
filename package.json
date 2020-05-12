@@ -1,6 +1,6 @@
 {
   "name": "dynamodb-express-store",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Implementation of a session storage using DynamoDB as an extension of the express-session middleware.",
   "author": "Garret Harp <garret@smartprograms.co>",
   "main": "index.js",
@@ -41,10 +41,7 @@
     "husky": "^0.14.3",
     "uuid": "^3.1.0"
   },
-  "files": [
-    "dist/",
-    "index.js"
-  ],
+  "files": ["dist/", "index.js"],
   "keywords": [
     "dynamo",
     "dynamodb",
