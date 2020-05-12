@@ -41,7 +41,10 @@
     "husky": "^0.14.3",
     "uuid": "^3.1.0"
   },
-  "files": ["dist/", "index.js"],
+  "files": [
+    "dist/",
+    "index.js"
+  ],
   "keywords": [
     "dynamo",
     "dynamodb",
