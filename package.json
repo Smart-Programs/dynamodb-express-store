@@ -1,0 +1,53 @@
+{
+  "name": "dynamodb-express-store",
+  "version": "1.0.0",
+  "description": "Implementation of a session storage using DynamoDB as an extension of the express-session middleware.",
+  "author": "Garret Harp <garret@smartprograms.co>",
+  "main": "index.js",
+  "readmeFilename": "README.md",
+  "license": "MIT",
+  "url": "https://github.com/smart-programs/dynamodb-express-store",
+  "bugs": {
+    "url": "https://github.com/smart-programs/dynamodb-express-store/issues",
+    "email": "garret@smartprograms.co"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/smart-programs/dynamodb-express-store.git"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "scripts": {
+    "build": "rm -rf dist && NODE_ENV=production babel lib -d dist",
+    "precommit": "npm run build && git add dist"
+  },
+  "dependencies": {
+    "express-session": "^1.15.5"
+  },
+  "optionalDependencies": {
+    "aws-sdk": "^2.100.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.2",
+    "babel-jest": "^20.0.3",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "flow-bin": "^0.69.0",
+    "flow-typed": "^2.4.0",
+    "husky": "^0.14.3",
+    "uuid": "^3.1.0"
+  },
+  "files": ["dist/", "index.js"],
+  "keywords": [
+    "dynamo",
+    "dynamodb",
+    "session",
+    "session-store",
+    "express-session",
+    "express"
+  ]
+}
