@@ -1,6 +1,6 @@
 {
   "name": "dynamodb-express-store",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Implementation of a session storage using DynamoDB as an extension of the express-session middleware.",
   "author": "Garret Harp <garret@smartprograms.co>",
   "main": "index.js",
